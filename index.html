@@ -1,0 +1,179 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Younes Bouras-Portfolio</title>
+  </head>
+  
+  <body>
+    
+    <nav>
+      <span class="logo">YB.</span>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+    
+    <div class="myself" id="about">
+      
+      <div class="myself-text">
+        <h1 class="myself-name">Bouras <span>Younes</span></h1>
+        <p class="myself-title">M2 AI Student &amp; Web Developer</p>
+        <p class="myself-bio">
+          First-year Master's student specializing in Artificial Intelligence.
+          Passionate about web development — both its creative and functional sides.
+          I enjoy building efficient, elegant solutions from scratch.
+        </p>
+        <div class="myself-cta">
+          <a href="#projects" class="btn-primary">View my work</a>
+          <a href="#contact" class="btn-outline">Get in touch</a>
+        </div>
+      </div>
+      
+      <div class="photo-placeholder">
+        <img src="images/my-photo.png" alt="" width="240px;" />
+      </div>
+    
+    </div>
+
+    <div class="divider"></div>
+
+    <section id="skills">
+      <p class="section-label">What I work with</p>
+      <h2 class="section-heading">Skills &amp; Technologies</h2>
+      <div class="skills-grid">
+        <div class="skill-card" id="html-skill">
+          <i class="fa-brands fa-html5 skill-icon" style="color: red;"></i>
+          <div class="skill-name">HTML</div>
+        </div>
+        <div class="skill-card" id="css-skill">
+          <i class="fa-brands fa-css skill-icon" style="color: blue;"></i>
+          <div class="skill-name">CSS</div>
+        </div>
+        
+        <div class="skill-card" id="js-skill">
+          <i class="fa-brands fa-js skill-icon" style="color: yellow;"></i>
+          <div class="skill-name">JavaScript</div>
+        </div>
+        <div class="skill-card" id="php-skill">
+          <i class="fa-brands fa-php skill-icon" style="color: purple;"></i>
+          <div class="skill-name">PHP</div>
+        </div>
+        <div class="skill-card" id="sql-skill">
+          <i class="fa-solid fa-database skill-icon" style="color: peru;"></i>
+          <div class="skill-name">MySQL</div>
+        </div>
+        <div class="skill-card" id="python-skill">
+          <i class="fa-brands fa-python skill-icon" style="color: yellow;"></i>
+          <div class="skill-name">Python / AI</div>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <section id="projects">
+      <p class="section-label">What I've built</p>
+      <h2 class="section-heading">My Projects</h2>
+      <div class="projects-grid">
+        <a class="project-card" href="https://motionview.page.gd" target="_blank">
+          <div class="project-logo">🎥</div>
+          <div class="project-name">Motion View</div>
+          <div class="project-desc">
+            A web project to view ratings, descriptions and explore Movies/TV Shows
+          </div>
+          <div class="project-link">Visit site →</div>
+        </a>
+        <a class="project-card" href="https://itsyounes20.github.io/road-trip-planner/  " target="_blank">
+          <div class="project-logo">🗺️</div>
+          <div class="project-name">Road Trip Planner</div>
+          <div class="project-desc">
+            A web project showcasing motion and visual design. Built with a focus on
+            creative front-end development.
+          </div>
+          <div class="project-link">Visit site →</div>
+        </a>
+        <div class="project-card" style="opacity: 0.5; cursor: default">
+          <div class="project-logo">+</div>
+          <div class="project-name">More coming soon</div>
+          <div class="project-desc">
+            New projects are in the works. Check back soon.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <section id="contact">
+      <p class="section-label">Let's connect</p>
+      <h2 class="section-heading">Contact</h2>
+      
+      <div class="contact-container">
+        <!-- Contact Info Cards -->
+        <div class="contact-grid">
+          <div class="contact-item">
+            <div class="contact-icon">✉️</div>
+            <div>
+              <div class="contact-label">Email</div>
+              <div class="contact-value">brsyounes10@proton.me</div>
+            </div>
+          </div>
+
+          <a href="https://www.linkedin.com/in/younes-bouras-3a8b5428a/" target="_blank">
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fa-brands fa-linkedin"></i></div>
+              <div>
+                <div class="contact-label">LinkedIn</div>
+                <div class="contact-value">Younes Bouras</div>
+              </div>
+            </div>
+          </a>
+
+          <a href="https://github.com/itsyounes20" target="_blank">
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fa-brands fa-square-github"></i></div>
+              <div>
+                <div class="contact-label">GitHub</div>
+                <div class="contact-value">ItsYounes20</div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <form class="contact-form" id="contact-form" action="https://formspree.io/f/xaeyallj" method="POST">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="your.email@example.com" required />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+          </div>
+
+          <button type="submit" id="form-submit-btn" class="btn-primary form-btn">Send Message</button>
+          
+          <div id="form-status" class="form-status"></div>
+        
+        </form>
+      </div>
+    </section>
+  </body>
+  <script src="script.js"></script>
+
+  <footer>Designed &amp; built by Bouras Younes · 2026</footer>
+</html>
